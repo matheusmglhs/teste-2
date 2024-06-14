@@ -1,0 +1,451 @@
+.devinopastel {
+    font-size: 3.1;
+    margin-top: 4px;
+    margin-bottom: 10px;
+    font-weight: 900;
+    color: white;
+    z-index: 5;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+.style {
+    text-align: center;
+    margin-top: 60px;
+}
+
+.texto-com-linha {
+    text-decoration: underline;
+    vertical-align: bottom;
+}
+
+.top {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    /* Cobrir toda a largura da tela */
+    height: 300px;
+    /* Altura desejada da parte preta */
+    background-image:
+        /* Primeira camada: gradiente preto */
+        linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+        /* Segunda camada: sua imagem de fundo */
+        url('/img/img-cachorro-quente.png');
+    /* As camadas são empilhadas de trás para frente, então a imagem de fundo será exibida sobre o gradiente preto */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    z-index: 0;
+}
+
+.span {
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top: -15px;
+
+
+}
+
+
+.horarios-funcionamento {
+    background-color: green;
+    /* Cor de fundo */
+    color: white;
+    /* Cor do texto */
+    padding: 5px 10px;
+    /* Espaçamento interno */
+    border-radius: 10px;
+    /* Borda arredondada */
+    display: inline-block;
+    /* Faz a span ocupar toda a largura disponível */
+    margin-top: 5px;
+    /* Ajusta a posição para que fique próximo ao título */
+}
+
+.hidden {
+    display: none
+}
+
+
+#horarios-funcionamento {
+    font-weight: bolder;
+}
+
+hr {
+    border: 1px solid rgba(186, 181, 181, 0.913);
+    margin: 0;
+    margin-top: -5px;
+    width: 50%;
+    margin-left: 360px;
+
+
+
+
+}
+
+.error-border {
+    border: 1px solid red;
+}
+
+
+.h3 {
+    font-size: 30px;
+    /* Tamanho da fonte em rem */
+    line-height: 32px;
+    /* Altura da linha em rem */
+    font-weight: 600;
+    text-align: center;
+
+    /* Margem superior em rem */
+    margin-bottom: -5px;
+    /* Margem inferior em rem */
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    letter-spacing: 0px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5)
+}
+
+
+
+
+
+.meu {
+
+    /* Borda arredondada */
+    font-size: 24px;
+    /* Tamanho da fonte em rem */
+    line-height: 32px;
+    /* Altura da linha em rem */
+    font-weight: 600;
+    text-align: center;
+    margin-top: 320px;
+    /* Margem superior em rem */
+    margin-bottom: 10px;
+    /* Margem inferior em rem */
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    letter-spacing: 0px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: space-around;
+}
+
+
+
+
+
+
+.pedido {
+    color: white;
+    /* Cor do texto */
+    padding: 5px 5px;
+    /* Espaçamento interno */
+    border-radius: 10px;
+    /* Borda arredondada */
+    display: inline-block;
+    /* Faz a span ocupar toda a largura disponível */
+    margin-top: 5px;
+    /* Ajusta a posição para que fique próximo ao título */
+
+}
+
+/*itens*/
+
+.itens {
+    width: 90px;
+    height: 90px;
+    border-radius: 6px;
+    margin-top: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.div-geral {
+    display: flex;
+    max-width: 500px;
+    width: 20px;
+}
+
+
+
+
+main {
+
+    margin: 2em auto;
+    padding: 20px;
+    background-image: url(../img/background3.jpg);
+    border-radius: 8px;
+    margin-top: 5px;
+    display: grid;
+    border: 2px solid black;
+    width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+
+
+
+
+    /* Usa um layout de grid */
+}
+
+
+
+.grid {
+    grid-template-columns: repeat(1, minmax(0, 1fr));
+    grid-template-columns: repeat(1) minmax(10, 1fr);
+    max-width: 1200px;
+    min-width: 268px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+
+
+
+
+
+
+}
+
+
+
+
+
+.product {
+    display: flex;
+    align-items: 2em;
+    width: calc(50%-20px);
+    margin: 10px;
+
+
+}
+
+.product-info {
+    text-align: left;
+    flex: 1;
+
+}
+
+.price {
+
+    font-size: 18px;
+    color: white;
+    margin-top: -20px;
+    margin-left: 5px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: normal;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5)
+}
+
+.add-carrinho {
+    display: flex;
+    /* Use flexbox para alinhar os elementos */
+    align-items: center;
+    /* Alinhe os itens verticalmente */
+
+
+}
+
+.button {
+    color: black;
+    background-color: black;
+    border-radius: 0.25rem;
+    margin-top: -40px;
+    width: 55px;
+    height: 27px;
+    margin-left: 697px;
+}
+
+
+
+.botao-carrinho {
+    color: black;
+    background-color: black;
+    border-radius: 0.25rem;
+    margin-top: -40px;
+    width: 55px;
+    height: 27px;
+    margin-left: 777px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+
+
+
+}
+
+
+
+
+.x-hamburguer {
+    font-weight: 900;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+.xbg-descri {
+
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+    color: black;
+
+}
+
+.butao {
+    font-weight: 700px;
+    height: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.modal {
+    background-color: rgba(0, 0, 0, 0.6);
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 99;
+    align-items: center;
+    display: none;
+    justify-content: center;
+}
+
+.descriçao {
+
+    width: 30px 100%;
+    height: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top: -55px;
+    margin-left: 5px;
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5)
+}
+
+.lista-carrinho {
+    background-color: white;
+    padding: 5px;
+    border-radius: 7px;
+    width: 500px;
+    max-height: 400px;
+
+
+    margin-top: -100px;
+
+
+
+
+}
+
+.lista-itens-rolavel {
+    background-color: white;
+    padding: 10px;
+    border-radius: 6px;
+    max-height: 300px;
+    /* Altura máxima da área de itens do carrinho */
+    overflow-y: auto;
+    margin-top: 20px;
+    /* Adiciona rolagem vertical conforme necessário */
+    margin-bottom: 5px;
+    margin: -20;
+}
+
+.lista-itens-rolavel #cart-items div {
+    margin-bottom: -10px;
+    /* Adiciona espaço entre os itens */
+}
+
+
+.elementos-internos {
+    position: absolute;
+
+    width: 300px;
+    background-color: white;
+    padding: 5px;
+    box-sizing: border-box;
+    margin-left: -2px;
+    margin-top: 200px;
+    border-radius: 6px;
+
+}
+
+
+.hidden {
+    display: none;
+}
+
+body {
+    background-image: url('../img/background2.jpg');
+    margin: 0%;
+    font-size: 16px;
+    padding: 0;
+
+}
+
+.isopen {
+
+    background-color: rgb(239 68 68)
+}
+
+.open {
+    background-color: rgb(220 38 38);
+}
+
+@media only screen and (max-width:600px) {
+    main {
+        margin: 4;
+        padding: 5px;
+        width: 400px;
+
+
+
+    }
+
+    .button {
+
+        margin-left: 230px;
+    }
+
+    .descriçao {
+        width: 180px;
+    }
+
+    .price {
+        margin-top: -2px;
+    }
+
+    .texto-com-linha {
+        margin-top: -4px;
+    }
+
+    .h3 {
+        margin-top: -6px;
+    }
+
+    .lista-carrinho {
+
+        width: 300px;
+        max-height: 400px;
+
+        margin-top: -100;
+        margin-top: -100px;
+
+    }
+
+    .lista-itens-rolavel {
+
+
+        max-height: 300px;
+
+
+
+    }
+
+    .elementos-internos {
+        position: absolute;
+
+        width: 300px;
+
+
+
+
+
+    }
+}
